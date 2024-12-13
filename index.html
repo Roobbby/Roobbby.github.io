@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Portfolio Website</title>
 </head>
 
@@ -14,30 +15,78 @@
         <a href="#" class="logo">Robby</a>
 
         <nav>
-            <a href="#" class="active"> Home</a>
-            <!-- <a href="#" >Services</a>
-            <a href="#" >Skills</a>
-            <a href="#" >Education</a>
-            <a href="#" >Experience</a>
-            <a href="#" >Contact</a> -->
+            <a href="#home" class="active">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
-    <section class="home">
+    <section class="home" id="home">
         <div class="home-img">
-            <img src="photo.png" alt="">
+            <img src="/images/photo.png" alt="">
         </div>
         <div class="home-content">
             <h1>Hi, It's <span>Robby</span></h1>
             <h3 class="typing-text">I'm a <span></span></h3>
-            <p>P INFO LOKER</p>
+            <br><br>
+            <p>Sebagai seorang backend developer, saya memiliki keahlian dalam membangun fondasi yang kuat untuk
+                aplikasi web. Saya percaya bahwa backend yang baik adalah kunci untuk pengalaman pengguna yang luar
+                biasa, dan saya berkomitmen untuk terus belajar dan berinovasi dalam bidang ini.</p>
             <div class="social-icons">
                 <a href="#"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="#"><i class="fa-brands fa-github"></i></a>
                 <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
             </div>
-            <a href="https://wa.me/+6282136340072" class="btn">Hire me</a>
+            <a href="https://wa.me/+6282136340072" class="btn" target="_blank">Hire me</a>
         </div>
+    </section>
+    <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <div class="skill-container">
+            <div class="skill">
+                <i class="fab fa-html5"></i>
+                <p>HTML</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-css3-alt"></i>
+                <p>CSS</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-js"></i>
+                <p>JavaScript</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-php"></i>
+                <p>PHP</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-python"></i>
+                <p>Python</p>
+            </div>
+            <div class="skill">
+                <i class="fa-solid fa-desktop"></i>
+                <p>Teknisi Komputer</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-laravel"></i>
+                <p>Laravel</p>
+            </div>
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <h2>Projects</h2>
+        <p>Berikut adalah beberapa proyek yang telah saya kerjakan:</p>
+        <ul>
+            <li>Projects SAAS: comming soon.</li>
+            <li>Projects Rekomendasi Barang: comming soon.</li>
+            <li>Projects E-Commers: comming soon.</li>
+        </ul>
+    </section>
+    
+    <section class="contact" id="contact">
+        <h2>Contact</h2>
+        <p>Jika Anda ingin menghubungi saya, silakan kirim email ke <a href="robbynugtoho888@gmail.com">Disini</a>.</p>
     </section>
 </body>
 

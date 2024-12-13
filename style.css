@@ -100,6 +100,8 @@ nav a.active {
 section {
     min-height: 100vh;
     padding: 5rem 9% 5rem;
+    background-color: #161616;
+    color: white;
 }
 
 .home {
@@ -146,6 +148,48 @@ span {
 .home-img img:hover {
     font-size: 1.8rem;
     font-weight: 500;
+}
+
+.skills {
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.skills h2 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    color: #b74b4b;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.skill {
+    background-color: #161616;
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 150px;
+    transition: transform 0.3s;
+}
+
+.skill i {
+    font-size: 3rem;
+    color: #b74b4b;
+}
+
+.skill p {
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    color: white;
+}
+
+.skill:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(183, 75, 75, 0.5);
 }
 
 .social-icons a {
@@ -233,22 +277,22 @@ span {
 
     21%,
     40% {
-        content: "Developer";
+        content: "Backend Developer";
     }
 
     41%,
     60% {
-        content: "Web Designer";
+        content: "C# Developer";
     }
 
     61%,
     80% {
-        content: "Youtuber";
+        content: "Frontend Developer";
     }
 
     81%,
     100% {
-        content: "Script Writer";
+        content: "Fullstack Developer";
     }
 }
 
@@ -276,4 +320,77 @@ span {
         width: 70vw;
         margin-top: 4rem;
     }
+    .projects {
+        background-color: #222; /* Warna latar belakang yang lebih gelap */
+        padding: 5rem 9%; /* Padding untuk section */
+        border-radius: 10px; /* Sudut melengkung */
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Bayangan untuk efek kedalaman */
+    }
+    
+    .projects h2 {
+        font-size: 3rem; /* Ukuran font untuk judul */
+        text-align: center; /* Pusatkan teks */
+        color: #b74b4b; /* Warna judul */
+        margin-bottom: 2rem; /* Jarak bawah */
+    }
+    
+    .projects p {
+        font-size: 1.6rem; /* Ukuran font untuk deskripsi */
+        text-align: center; /* Pusatkan teks */
+        margin-bottom: 3rem; /* Jarak bawah */
+    }
+    
+    .projects ul {
+        list-style: none; /* Menghilangkan bullet point */
+        padding: 0; /* Menghilangkan padding */
+        display: flex; /* Menggunakan flexbox untuk tata letak */
+        flex-direction: column; /* Mengatur arah kolom */
+        align-items: center; /* Pusatkan item */
+    }
+    
+    .projects li {
+        background-color: #333; /* Warna latar belakang item */
+        border-radius: 8px; /* Sudut melengkung */
+        padding: 1.5rem 2rem; /* Padding untuk item */
+        margin: 1rem 0; /* Jarak antar item */
+        width: 80%; /* Lebar item */
+        transition: transform 0.3s, box-shadow 0.3s; /* Transisi untuk efek hover */
+    }
+    
+    .projects li:hover {
+        transform: translateY(-5px); /* Efek angkat saat hover */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Bayangan saat hover */
+        background-color: #444; /* Warna latar belakang saat hover */
+    }
+    .contact {
+        background-color: #161616; /* Warna latar belakang yang lebih gelap */
+        padding: 5rem 9%; /* Padding untuk section */
+        border-radius: 10px; /* Sudut melengkung */
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Bayangan untuk efek kedalaman */
+        text-align: center; /* Pusatkan teks */
+    }
+    
+    .contact h2 {
+        font-size: 3rem; /* Ukuran font untuk judul */
+        color: #b74b4b; /* Warna judul */
+        margin-bottom: 2rem; /* Jarak bawah */
+    }
+    
+    .contact p {
+        font-size: 1.6rem; /* Ukuran font untuk deskripsi */
+        margin-bottom: 2rem; /* Jarak bawah */
+    }
+    
+    .contact a {
+        color: #b74b4b; /* Warna tautan */
+        text-decoration: none; /* Menghilangkan garis bawah */
+        font-weight: bold; /* Menebalkan teks */
+        transition: color 0.3s; /* Transisi untuk efek hover */
+    }
+    
+    .contact a:hover {
+        color: white; /* Warna saat hover */
+        text-decoration: underline; /* Garis bawah saat hover */
+    }
+    
 }
