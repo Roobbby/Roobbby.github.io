@@ -320,77 +320,102 @@ span {
         width: 70vw;
         margin-top: 4rem;
     }
-    .projects {
-        background-color: #222; /* Warna latar belakang yang lebih gelap */
-        padding: 5rem 9%; /* Padding untuk section */
-        border-radius: 10px; /* Sudut melengkung */
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Bayangan untuk efek kedalaman */
-    }
-    
-    .projects h2 {
-        font-size: 3rem; /* Ukuran font untuk judul */
-        text-align: center; /* Pusatkan teks */
-        color: #b74b4b; /* Warna judul */
-        margin-bottom: 2rem; /* Jarak bawah */
-    }
-    
-    .projects p {
-        font-size: 1.6rem; /* Ukuran font untuk deskripsi */
-        text-align: center; /* Pusatkan teks */
-        margin-bottom: 3rem; /* Jarak bawah */
-    }
-    
-    .projects ul {
-        list-style: none; /* Menghilangkan bullet point */
-        padding: 0; /* Menghilangkan padding */
-        display: flex; /* Menggunakan flexbox untuk tata letak */
-        flex-direction: column; /* Mengatur arah kolom */
-        align-items: center; /* Pusatkan item */
-    }
-    
-    .projects li {
-        background-color: #333; /* Warna latar belakang item */
-        border-radius: 8px; /* Sudut melengkung */
-        padding: 1.5rem 2rem; /* Padding untuk item */
-        margin: 1rem 0; /* Jarak antar item */
-        width: 80%; /* Lebar item */
-        transition: transform 0.3s, box-shadow 0.3s; /* Transisi untuk efek hover */
-    }
-    
-    .projects li:hover {
-        transform: translateY(-5px); /* Efek angkat saat hover */
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Bayangan saat hover */
-        background-color: #444; /* Warna latar belakang saat hover */
-    }
-    .contact {
-        background-color: #161616; /* Warna latar belakang yang lebih gelap */
-        padding: 5rem 9%; /* Padding untuk section */
-        border-radius: 10px; /* Sudut melengkung */
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Bayangan untuk efek kedalaman */
-        text-align: center; /* Pusatkan teks */
-    }
-    
-    .contact h2 {
-        font-size: 3rem; /* Ukuran font untuk judul */
-        color: #b74b4b; /* Warna judul */
-        margin-bottom: 2rem; /* Jarak bawah */
-    }
-    
-    .contact p {
-        font-size: 1.6rem; /* Ukuran font untuk deskripsi */
-        margin-bottom: 2rem; /* Jarak bawah */
-    }
-    
-    .contact a {
-        color: #b74b4b; /* Warna tautan */
-        text-decoration: none; /* Menghilangkan garis bawah */
-        font-weight: bold; /* Menebalkan teks */
-        transition: color 0.3s; /* Transisi untuk efek hover */
-    }
-    
-    .contact a:hover {
-        color: white; /* Warna saat hover */
-        text-decoration: underline; /* Garis bawah saat hover */
-    }
-    
+
+}
+
+/* Styles for the projects section */
+.projects {
+    background-color: #1e1e1e;
+    padding: 4rem 8%;
+    text-align: left;
+}
+
+.projects h2 {
+    color: #ff6347;
+    margin-bottom: 2rem;
+}
+
+.projects p {
+    font-size: 1.4rem;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.projects ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.projects li {
+    background-color: #2e2e2e;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 1.5rem 0;
+    width: 100%;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.projects li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    background-color: #3e3e3e;
+}
+
+.projects img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.projects a {
+    color: #ff6347;
+    text-decoration: underline;
+}
+
+/* Styles for the contact section */
+.contact {
+    background-color: #2a2a2a;
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact h2 {
+    color: #32cd32;
+    margin-bottom: 2rem;
+}
+
+.contact p {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact li {
+    background-color: #3a3a3a;
+    border-radius: 10px;
+    padding: 1.5rem 2rem;
+    margin: 1rem 0;
+    width: auto;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.contact li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    background-color: #4a4a4a;
 }
